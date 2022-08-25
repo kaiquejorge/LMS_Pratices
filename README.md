@@ -1,1 +1,1 @@
-# Hello, this will be my repository for every pratice in HTML, CSS AND JAVASCRIPT.
+# Hello, this is my repository for HTML, CSS AND JS practices.
