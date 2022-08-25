@@ -1,2 +1,2 @@
-# Hello, this is my repository for HTML, CSS AND JS practices.
-# Olá, este é meu repositório de práticas de HTML, CSS e JS.
+Hello, this is my learning process repository in Script Language and Markup.
+Olá, este é o meu repositório de processo de aprendizagem em Linguagem e Marcação de Script.
