@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learn</title>
+    <style>
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body{
+        background-color: whitesmoke;
+        }
+
+        .wrapper{
+        display: flex;
+        position: relative;
+        }
+
+        .wrapper .sidebar{
+        width: 400px;
+        height: 100%;
+        background: #217544;
+        padding: 30px 0px;
+        position: fixed;
+        }
+
+        .wrapper .sidebar h2{
+        color: whitesmoke;
+        text-transform: uppercase;
+        text-align: center;
+
+        margin-bottom: 30px;
+        }
+
+        .wrapper .sidebar ul li{
+        padding: 15px;
+        border-bottom: 1px solid whitesmoke;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        border-top: 1px solid rgba(255,255,255,0.05);
+        }    
+
+        .wrapper .sidebar ul li a{
+        color: whitesmoke;
+        text-transform: uppercase;
+        display: block;
+        }
+
+        .wrapper .sidebar ul li:hover{
+        background-color: rgb(221, 152, 68);
+        transition-duration: 1s;
+        cursor: pointer;
+        }
+    
+        .wrapper .sidebar ul li:hover a{
+        color: whitesmoke;
+        }
+
+        .wrapper .main_content{
+        width: 100%;
+        margin-left: 200px;
+        text-align: center;
+        }
+
+        .wrapper .main_content .header{
+        padding: 20px;
+        background: #fff;
+        color: #717171;
+        border-bottom: 1px solid #e0e4e8;
+        
+        }
+
+        .wrapper .main_content .info{
+        margin: 20px;
+        color: #717171;
+        line-height: 25px;
+        }
+
+        .wrapper .main_content .info div{
+        margin-bottom: 20px;
+        }
+
+        body {
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+
+        .artigo1 {
+            background-color: rgb(36, 80, 43);
+            width: 50vw ;
+            height: 50vh;
+            margin: auto;
+            text-align: right;
+            padding: 20px;
+            border: 20px ridge rgb(221, 152, 68);
+            position: relative;
+            left: 100px;
+
+        }
+        .artigo2 {
+            background-color: rgb(36, 80, 43);
+            width: 50vw ;
+            height: 50vh;
+            margin: auto;
+            text-align: right;
+            padding: 20px;
+            border: 20px ridge rgb(221, 152, 68);
+            position: relative;
+            left: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa"></i>Início</a></li>
+                <li><a href="#"><i class="fas fa"></i>Projetos</a></li>
+                <li><a href="#"><i class="fas fa"></i>Artigos</a></li>
+                <li><a href="#"><i class="fas fa"></i>Eventos</a></li>
+                <li><a href="#"><i class="fas fa"></i>Sobre</a></li>
+            </ul> 
+        </div>
+        <div class="main_content">
+            <div class="header">Bem-vindo a página English Learn!</div>  
+            <div class="info">
+    <br><br>
+    <article class="artigo1"><h1 style="color: whitesmoke; text-align: right">Artigo 1 - What is Lorem Ipsum?</h1><br>
+        <p style="color: whitesmoke;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+        </p>
+    </article><br>
+
+    <article class="artigo1"><h1 style="color: whitesmoke; text-align: right">Artigo 2 - Why do we use it?</h1><br>
+        <p style="color: whitesmoke;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+</article>
+
+</body>
+</html>
