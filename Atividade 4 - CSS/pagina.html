@@ -15,6 +15,12 @@
     background-color:brown; 
     }
 
+    .container {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
     .blogtitle {
         display: flex;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -68,7 +74,9 @@
         text-transform: uppercase;
         color:rgb(181, 192, 194);
         font-weight: lighter;
-        border: 1px solid rgb(181, 192, 194);
+        border: 1px solid rgb(216, 227, 230);
+        margin: 8px;
+        outline: auto;
         
     }
 
@@ -81,6 +89,8 @@
         margin: 1px;
         margin-bottom: 0px;
         font-size: 20px;
+        flex-direction: column;
+        flex-wrap: nowrap;
 
     }
     
@@ -130,6 +140,8 @@
         text-align: center;
         width: 62%;
         height: 70px;
+        flex-direction: column;
+        flex-wrap: nowrap;
 
     }
 
@@ -142,6 +154,8 @@
         left: 50%;
         width: 60%;
         top: -218px;
+        flex-direction: column;
+        flex-wrap: nowrap;
 
     }
     .wrapper2 .rightsidebar ul li{
@@ -175,12 +189,14 @@
     .rightsidebar > div {
         display: flex;
         flex-wrap: nowrap;
+        flex-direction: column;
     }
 
     </style>
 </head>
 
 <body>
+    <div class="container">
     <nav>
         <div class="navbar">
         <a href="/" class="button">Home</a>
@@ -190,12 +206,13 @@
         </div>
     </nav>
 
-    <div class="blogtitle">
+    <class class="blogtitle">
         <div class="header">Lana Del Rey Brasil</div>  
         <div class="info">
+    </class>
     </div>
     
-    <div class="wrapper1">
+    <class class="wrapper1">
         <div class="leftsidebar">
             <h2>Extra Links</h2>
             <ul>
@@ -205,7 +222,7 @@
                 <li><a href="#"><i class="fas fa"></i>Downloads</a></li>
             </ul>
         </div> 
-    </div>
+    </class>
     <div class="wrapper2">
         <div class="rightsidebar">
             <h2>Redes Sociais</h2>
@@ -217,5 +234,6 @@
             </ul>
             </div> 
         </div>   
+    </class>
 </body>
 </html>
