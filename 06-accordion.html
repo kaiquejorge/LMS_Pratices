@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .accordion{
+            background-color: brown;
+            color:cadetblue;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+        }
+        
+        .active .accordion:hover{
+            background-color: blueviolet;
+        }
+
+        .painel{
+            background-color: brown;
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <button class="accordion">Secao 1</button>
+    <div class="painel">
+        <p>As andorinhas voltaram e o verão chegou</p>
+    </div>
+</body>
+</html>

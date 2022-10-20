@@ -98,7 +98,7 @@
     .wrapper1 .leftsidebar{
         width: 300px;
         height: 100%;
-        position: static;
+        position: relative;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -115,10 +115,11 @@
     .wrapper1 .leftsidebar ul li a{
         color:  rgb(181, 192, 194);
         text-transform: uppercase;
-        display: flexbox;
         padding: 20px;
         margin: 0;
         font-size: 15px;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
 
     .wrapper1 .leftsidebar ul li:hover{
@@ -187,7 +188,7 @@
         color: whitesmoke;
     }
 
-    .rightsidebar > div {
+    .rightsidebar .container {
         display: flex;
         flex-wrap: nowrap;
         flex-direction:row;
@@ -196,32 +197,31 @@
     .gallery-container{
         display: flex;
         height: 600px;
-        flex-wrap: wrap;
-        justify-content:space-evenly;
-        padding: 1vw;
-        padding-right: 250px;
-        margin-left: 5px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items:var(1225px);
+        padding-right: 230px;
+        padding-bottom: 95px;
     }
     .gallery-items{
         display:flex;
         width: 150px;
         height: 150px;
-        border: 2px solid chocolate;
-        box-shadow: 10px 10px 10px black;
-        flex-direction: row;
-        flex-wrap: nowrap;
         margin-left: 200px;
         margin-right: -50px;
     }
     
     .gallery-items img {
+        display: flex;
         width: 100%;
         height: 100%;
+
     }
 
     .gallery-items:hover{
         transform: scale(1.1);
-        transition-duration: 1s;
+        transition-duration: 2s;
     }
 
     main .gallery-container ul{
